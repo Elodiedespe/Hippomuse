@@ -116,7 +116,8 @@ for t in tests:
 Phases = ["P1", "P2"]
 for p in Phases:
     Episo=df[(df.Test=='totale')&(df.Phase== p )]
-    df_epido = Episo.dropna(subset=['Result'])
+    Episo1=Episo.sort_values(by='Age')
+    df_epido = Episo1.dropna(subset=['Result'])
 
     sns.factorplot(x="Age", y="Result", hue="TypeHedonicite", data=df_epido)
 
