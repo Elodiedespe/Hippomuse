@@ -200,3 +200,4 @@ for test in Tests[1:6]:
     g = sns.factorplot(x="GroupeAge", y="Result", hue="TypeReconnaissanceImage", col="Phase", data=df_Episo,
                        size=6, aspect=.75)
     g.despine(left=True)
+df.to_csv('/media/edogerde/MY PASSPORT/for_git/Hippomuse/hippomuseDataBase.csv')
