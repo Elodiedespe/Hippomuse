@@ -42,7 +42,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import scipy
 
-df = pd.read_csv('/home/edogerde/Registration_roi/hippomuseDataBase.csv')
+df = pd.read_csv('/media/mfpgt/MY PASSPORT/for_git/Hippomuse/hippomuseDataBase.csv')
 
 """TOTAL EPISODICITY AND AGE AND RT during P1 & P2"""
 #Select the test "episocite" and phase "1" 
