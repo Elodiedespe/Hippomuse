@@ -13,26 +13,27 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import scipy
 
+df = pd.read_csv('/media/edogerde/MY PASSPORT/for_git/Hippomuse/hippomuseDataBase.csv')
+
 """ VD EPISODICITE TOTALE"""
 # Distribution of the variable episodicite P1 and P2
 Tests =["episodicite", "when", "heure", "repereJournalier", "what", "totale" ]
-Phases= ["P1", "P2"]
-for test in Tests:
-    for phase in Phases:
-        x = df[["Test", 'Result']][(df.Test== test) & (df.Phase==phase)]
-        x1 = x.dropna(subset=['Result'])
-        X = x1["Result"]
-        sns.kdeplot(X, shade=True, cut=0)
-        sns.rugplot(X)
-        plt.ylabel("Score %s en phase %s"%(test, phase))
-        plt.xlabel("Age")
-        plt.title("Distribution du score %s en %s" %(test, phase))
+#Phases= ["P1", "P2"]
+for test in Tests[5:6]:
+    x = df[["Test", 'Result']][(df.Test== test) & (df.Phase=="P1")]
+    x1 = x.dropna(subset=['Result'])
+    X = x1["Result"]
+    sns.kdeplot(X, shade=True, cut=0)
+    sns.rugplot(X)
+    plt.title("Distribution du score de %s en recuperation" %(test))
+
+        
 
 
 #Anova 3 way Episodicite [ score on 3] , Phase, Age, RT
 Tests =["episodicite", "when", "heure", "repereJournalier", "what", "totale" ]
 for test in Tests:
-    Episo=df[(df.Test=='episodicite')] 
+    Episo=df[(df.Test== test)] 
     Episo1= Episo.sort_values(by = 'Age')
     df_Episo = Episo1.dropna(subset=['Result'])
 
@@ -117,7 +118,7 @@ cor_spearman = scipy.stats.spearmanr(X, Y)"""
 
 RC= ["sujet_001_CM", "sujet_002_AA", "sujet_005_BZ", "sujet_010_SA", 
      "sujet_011_PA", "sujet_012_OY", "sujet_017_AG", "sujet_018_FI"
-     ,"sujet_024_VM"," sujet_028_CH", "sujet_029_CT"," sujet_031_GT", 
+     ,"sujet_024_VM","sujet_028_CH", "sujet_029_CT", "sujet_031_GT", 
      "sujet_033_HL"]
      
 C = ["sujet_003_BJ", "sujet_004_GA", "sujet_006_GM", "sujet_007_MM", 
@@ -129,47 +130,73 @@ R= ["sujet_009_GB","sujet_014_WS","sujet_015_NI","sujet_016_DG","sujet_022_SK",
 
 # Create a empty list and fill it - Then, create a column with the value of treatment
 Treatment = []
-for suj in (df["sujet"]):
+for suj in (df["Patients"]):
     if suj in RC:
         Treatment.append('RC')
     elif suj in C:
         Treatment.append('C')
-    elif suj un R:
-        Treatment.append('R')         
+    elif suj in R:
+        Treatment.append('R')
+    else:
+        Treatment.append("NaN")         
 df['Traitement']= Treatment
 
 # Create a empty column call treatment
 df["Traitement"]= ""
 # Fill the column
 for suj in RC:
-    df[df["sujet"]==suj]["Treatment"]="RC"
+    df[df["Patients"]==suj]["Traitement"]=="RC"
 for suj in C:
-    df[df["sujet"]==suj]["Treatment"]="C"
-for suj in C:
-    df[df["sujet"]==suj]["Treatment"]="R"
+    df[df["Patients"]==suj]["Traitement"]=="C"
+for suj in R:
+    df[df["Patients"]==suj]["Traitement"]=="R"
+# Test of the new columns
+df[["Patients", "Traitement"]][df.Traitement=="NaN"]
      
-#  plots the point estimate and confidence interval
+#  List of the Test of Interest (ToI)
 Tests =["episodicite", "when", "heure", "repereJournalier", "what", "totale" ]
-Phases= ["P1", "P2"]
-for test in Tests:
-    for phase in Phases:
-        Episo=df[(df.Test== test)& (df.Phase==phase]] 
-        Episo1= Episo.sort_values(by = 'Age')
-        df_Episo = Episo1.dropna(subset=['Result'])
 
-        sns.pointplot(x="GroupeAge", y="survived", hue="Traitement", data=df_Episo);
-        plt.ylabel("Score %s totale en phase %s"%(test, phase))
-        plt.xlabel("Age")
-        plt.title("Score %s en fonction de lexpertise musicale de l'enfant%s"%( test,phase)
-        
+#Linear regression of the Epi Sc according to Age and Treatment
+for t in Tests[0:1]:
+    Episo=df[(df.Test== t)] 
+    Episo1= Episo.sort_values(by = 'Age')
+    df_Episo = Episo1.dropna(subset=['Result'])
+    sns.set(style="ticks")
+    g= sns.lmplot(x="Age", y="Result", col="Phase", hue="Traitement", data=df_Episo,
+                  col_wrap=2, ci=None, palette="muted", size=4,
+                  scatter_kws={"s": 50, "alpha": 1})
+
+
+#  plots the point estimate and confidence interval to GroupeAge and Treatment     
 for test in Tests:
     Episo=df[(df.Test== test)] 
     Episo1= Episo.sort_values(by = 'Age')
     df_Episo = Episo1.dropna(subset=['Result'])
     sns.set(style="whitegrid")
-    g = sns.factorplot(x="Age", y="Result", hue="TypeRT", col="Phase", data=df_Episo,
-                       palette="YlGnBu_d", size=6, aspect=.75)
+    g = sns.factorplot(x="GroupeAge", y="Result", hue="Traitement", col="Phase", data=df_Episo,
+                       size=6, aspect=.75)
     g.despine(left=True)
-    plt.ylabel("Score %s en phase d'encodage et de recuperation"%(test))
-    plt.xlabel("Age")
+   
 
+
+#  plots the point estimate and confidence interval to GroupeAge and TypeHedonicity     
+for test in Tests[1:6]:
+    Episo=df[(df.Test== test)] 
+    Episo1= Episo.sort_values(by = 'Age')
+    df_Episo = Episo1.dropna(subset=['Result'])
+    sns.set(style="whitegrid")
+    g = sns.factorplot(x="GroupeAge", y="Result", hue="TypeHedonicite", col="Phase", data=df_Episo,
+                       size=6, aspect=.75)
+    g.despine(left=True)
+
+   
+
+#  plots the point estimate and confidence interval to GroupeAge and TypeReconnaissance    
+for test in Tests[1:6]:
+    Episo=df[(df.Test== test)] 
+    Episo1= Episo.sort_values(by = 'Age')
+    df_Episo = Episo1.dropna(subset=['Result'])
+    sns.set(style="whitegrid")
+    g = sns.factorplot(x="GroupeAge", y="Result", hue="TypeReconnaissanceImage", col="Phase", data=df_Episo,
+                       size=6, aspect=.75)
+    g.despine(left=True)
