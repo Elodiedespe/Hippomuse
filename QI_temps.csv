@@ -1,0 +1,50 @@
+Nom,QI,Age au bilan,Traitement,Nombre,Difference_entre_1er_et_dernier bilan,Groupe_Age
+sujet_001_CM,88,3.18,Radiotherapie et chimiotherapie,1,4,Petit
+sujet_001_CM,103,5.07,Radiotherapie et chimiotherapie,2,,Petit
+sujet_001_CM,92,6.05,Radiotherapie et chimiotherapie,3,,Petit
+sujet_002_AA,88,4.95,Radiotherapie et chimiotherapie,1,0,Petit
+sujet_002_AA,91,6.16,Radiotherapie et chimiotherapie,2,,Petit
+sujet_002_AA,80,8.11,Radiotherapie et chimiotherapie,3,,Petit
+sujet_002_AA,88,10.18,Radiotherapie et chimiotherapie,4,,Petit
+sujet_003_BJ,83,5.14,Chimiotherapie,1,0,Grand
+sujet_003_BJ,87,6.33,Chimiotherapie,2,,Grand
+sujet_003_BJ,88,7.03,Chimiotherapie,3,,Grand
+sujet_003_BJ,83,9.09,Chimiotherapie,4,0,Grand
+sujet_004_GA,55,3.26,Chimiotherapie,1,-5,Petit
+sujet_004_GA,66,4.88,Chimiotherapie,2,,Petit
+sujet_004_GA,50,5.95,Chimiotherapie,3,,Petit
+sujet_005_BZ,67,3.37,Radiotherapie et chimiotherapie,1,-15,Petit
+sujet_005_BZ,60,5.13,Radiotherapie et chimiotherapie,2,,Petit
+sujet_005_BZ,52,7.21,Radiotherapie et chimiotherapie,3,,Petit
+sujet_006_GM,75,2.33,Chimiotherapie,1,-5,Petit
+sujet_006_GM,80,3.36,Chimiotherapie,2,,Petit
+sujet_006_GM,70,4.41,Chimiotherapie,3,,Petit
+sujet_007_MM,118,3.52,Radiotherapie et chimiotherapie,1,18,Petit
+sujet_007_MM,130,4.88,Radiotherapie et chimiotherapie,2,,Petit
+sujet_007_MM,136,6.18,Radiotherapie et chimiotherapie,3,,Petit
+sujet_008_PA,90,5.66,Chimiotherapie,1,,Grand
+sujet_009_GB,109,2.72,Radiotherapie,1,-7,Petit
+sujet_009_GB,102,5.04,Radiotherapie,2,,Petit
+sujet_010_SA,117,7.87,Radiotherapie et chimiotherapie,1,-8,Grand
+sujet_011_PA,73,9.80,Radiotherapie et chimiotherapie,2,,Grand
+sujet_011_PA,89,12.45,Radiotherapie et chimiotherapie,3,,Grand
+sujet_012_OY,109,10.13,Radiotherapie et chimiotherapie,4,,Grand
+sujet_015_NI,86,8.34,Radiotherapie,1,,Grand
+sujet_016_DG,130,6.75,Radiotherapie,1,,Grand
+sujet_017_AG,98,2.98,Radiotherapie et chimiotherapie,1,-8,Petit
+sujet_017_AG,90,4.88,Radiotherapie et chimiotherapie,2,,Petit
+sujet_021_PA,102,3.10,Chimiotherapie,1,,Petit
+sujet_022_SK,69,8.75,Radiotherapie,1,,Grand
+sujet_023_CN,102,2.11,Radiotherapie,1,,Petit
+sujet_024_VM,76,9.20,Radiotherapie et chimiotherapie,1,,Grand
+sujet_025_SS,78,3.39,Radiotherapie,1,19,Petit
+sujet_025_SS,97,5.87,Radiotherapie,2,,Petit
+sujet_026_AT,57,4.81,Chimiotherapie,1,,Petit
+sujet_027_BL,97,6.38,Radiotherapie,1,,Petit
+sujet_028_CH,94,8.15,Radiotherapie et chimiotherapie,1,,Grand
+sujet_029_CT,68,2.97,Radiotherapie et chimiotherapie,1,,Petit
+sujet_030_CR,105,6.19,Chimiotherapie,1,,Petit
+sujet_031_GT,91,6.10,Radiotherapie et chimiotherapie,1,,Petit
+sujet_033_HL,77,6.47,Radiotherapie et chimiotherapie,1,,Petit
+sujet_034_HI,106,7.65,Radiotherapie,1,,Grand
+sujet_035_NA,100,5.35,Chimiotherapie,1,,Petit

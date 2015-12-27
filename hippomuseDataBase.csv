@@ -5,7 +5,7 @@
 3,sujet_004_GA,9,Grand,,Pas RT,Chimiotherapie,P1,totale,episodicite,,,,,C
 4,sujet_005_BZ,8,Grand,4.0,RT,Conventionelle,P1,totale,episodicite,,,,Non musicien,RC
 5,sujet_006_GM,7,Grand,,Pas RT,Chimiotherapie,P1,totale,episodicite,,,,,C
-6,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,totale,episodicite,,,,,C
+6,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,totale,episodicite,,,,,RC
 7,sujet_008_PA,7,Grand,,Pas RT,Chimiotherapie,P1,totale,episodicite,,,,,C
 8,sujet_009_GB,7,Grand,3.0,RT,Conventionelle,P1,totale,episodicite,15.0,,,Musicien,R
 9,sujet_010_SA,9,Grand,6.0,RT,Conventionelle,P1,totale,episodicite,,,,,RC
@@ -73,12 +73,12 @@
 71,sujet_006_GM,7,Grand,,Pas RT,Chimiotherapie,P1,fenouil,hedonicite,,Negative,Moins bonne,,C
 72,sujet_006_GM,7,Grand,,Pas RT,Chimiotherapie,P1,banane,hedonicite,,Positive,Bonne,,C
 73,sujet_006_GM,7,Grand,,Pas RT,Chimiotherapie,P1,citron,hedonicite,,Neutre,Bonne,,C
-74,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,champignon,hedonicite,,Negative,Bonne,,C
-75,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,cassis,hedonicite,,Positive,Moins bonne,,C
-76,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,lavande,hedonicite,,Neutre,Moins bonne,,C
-77,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,fenouil,hedonicite,,Negative,Moins bonne,,C
-78,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,banane,hedonicite,,Positive,Bonne,,C
-79,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,citron,hedonicite,,Neutre,Bonne,,C
+74,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,champignon,hedonicite,,Negative,Bonne,,RC
+75,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,cassis,hedonicite,,Positive,Moins bonne,,RC
+76,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,lavande,hedonicite,,Neutre,Moins bonne,,RC
+77,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,fenouil,hedonicite,,Negative,Moins bonne,,RC
+78,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,banane,hedonicite,,Positive,Bonne,,RC
+79,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,citron,hedonicite,,Neutre,Bonne,,RC
 80,sujet_008_PA,7,Grand,,Pas RT,Chimiotherapie,P1,champignon,hedonicite,,Negative,Bonne,,C
 81,sujet_008_PA,7,Grand,,Pas RT,Chimiotherapie,P1,cassis,hedonicite,,Positive,Moins bonne,,C
 82,sujet_008_PA,7,Grand,,Pas RT,Chimiotherapie,P1,lavande,hedonicite,,Neutre,Moins bonne,,C
@@ -337,18 +337,18 @@
 335,sujet_006_GM,7,Grand,,Pas RT,Chimiotherapie,P2,fenouil,heure,,Negative,Moins bonne,,C
 336,sujet_006_GM,7,Grand,,Pas RT,Chimiotherapie,P2,banane,heure,,Positive,Bonne,,C
 337,sujet_006_GM,7,Grand,,Pas RT,Chimiotherapie,P2,citron,heure,,Neutre,Bonne,,C
-338,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,champignon,heure,,Negative,Bonne,,C
-339,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,cassis,heure,,Positive,Moins bonne,,C
-340,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,lavande,heure,,Neutre,Moins bonne,,C
-341,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,fenouil,heure,,Negative,Moins bonne,,C
-342,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,banane,heure,,Positive,Bonne,,C
-343,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,citron,heure,,Neutre,Bonne,,C
-344,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P2,champignon,heure,,Negative,Bonne,,C
-345,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P2,cassis,heure,,Positive,Moins bonne,,C
-346,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P2,lavande,heure,,Neutre,Moins bonne,,C
-347,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P2,fenouil,heure,,Negative,Moins bonne,,C
-348,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P2,banane,heure,,Positive,Bonne,,C
-349,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P2,citron,heure,,Neutre,Bonne,,C
+338,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,champignon,heure,,Negative,Bonne,,RC
+339,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,cassis,heure,,Positive,Moins bonne,,RC
+340,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,lavande,heure,,Neutre,Moins bonne,,RC
+341,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,fenouil,heure,,Negative,Moins bonne,,RC
+342,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,banane,heure,,Positive,Bonne,,RC
+343,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,citron,heure,,Neutre,Bonne,,RC
+344,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P2,champignon,heure,,Negative,Bonne,,RC
+345,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P2,cassis,heure,,Positive,Moins bonne,,RC
+346,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P2,lavande,heure,,Neutre,Moins bonne,,RC
+347,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P2,fenouil,heure,,Negative,Moins bonne,,RC
+348,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P2,banane,heure,,Positive,Bonne,,RC
+349,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P2,citron,heure,,Neutre,Bonne,,RC
 350,sujet_008_PA,7,Grand,,Pas RT,Chimiotherapie,P1,champignon,heure,,Negative,Bonne,,C
 351,sujet_008_PA,7,Grand,,Pas RT,Chimiotherapie,P1,cassis,heure,,Positive,Moins bonne,,C
 352,sujet_008_PA,7,Grand,,Pas RT,Chimiotherapie,P1,lavande,heure,,Neutre,Moins bonne,,C
@@ -805,20 +805,20 @@
 803,sujet_006_GM,7,Grand,,Pas RT,Chimiotherapie,P2,banane,musique,,Positive,Bonne,,C
 804,sujet_006_GM,7,Grand,,Pas RT,Chimiotherapie,P2,citron,musique,,Neutre,Bonne,,C
 805,sujet_006_GM,7,Grand,,Pas RT,Chimiotherapie,P2,totale,musique,,,,,C
-806,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,champignon,musique,,Negative,Bonne,,C
-807,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,cassis,musique,,Positive,Moins bonne,,C
-808,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,lavande,musique,,Neutre,Moins bonne,,C
-809,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,fenouil,musique,,Negative,Moins bonne,,C
-810,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,banane,musique,,Positive,Bonne,,C
-811,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,citron,musique,,Neutre,Bonne,,C
-812,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,totale,musique,,,,,C
-813,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P2,champignon,musique,,Negative,Bonne,,C
-814,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P2,cassis,musique,,Positive,Moins bonne,,C
-815,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P2,lavande,musique,,Neutre,Moins bonne,,C
-816,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P2,fenouil,musique,,Negative,Moins bonne,,C
-817,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P2,banane,musique,,Positive,Bonne,,C
-818,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P2,citron,musique,,Neutre,Bonne,,C
-819,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P2,totale,musique,,,,,C
+806,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,champignon,musique,,Negative,Bonne,,RC
+807,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,cassis,musique,,Positive,Moins bonne,,RC
+808,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,lavande,musique,,Neutre,Moins bonne,,RC
+809,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,fenouil,musique,,Negative,Moins bonne,,RC
+810,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,banane,musique,,Positive,Bonne,,RC
+811,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,citron,musique,,Neutre,Bonne,,RC
+812,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,totale,musique,,,,,RC
+813,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P2,champignon,musique,,Negative,Bonne,,RC
+814,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P2,cassis,musique,,Positive,Moins bonne,,RC
+815,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P2,lavande,musique,,Neutre,Moins bonne,,RC
+816,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P2,fenouil,musique,,Negative,Moins bonne,,RC
+817,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P2,banane,musique,,Positive,Bonne,,RC
+818,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P2,citron,musique,,Neutre,Bonne,,RC
+819,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P2,totale,musique,,,,,RC
 820,sujet_008_PA,7,Grand,,Pas RT,Chimiotherapie,P1,champignon,musique,,Negative,Bonne,,C
 821,sujet_008_PA,7,Grand,,Pas RT,Chimiotherapie,P1,cassis,musique,,Positive,Moins bonne,,C
 822,sujet_008_PA,7,Grand,,Pas RT,Chimiotherapie,P1,lavande,musique,,Neutre,Moins bonne,,C
@@ -1295,13 +1295,13 @@
 1293,sujet_006_GM,7,Grand,,Pas RT,Chimiotherapie,P1,banane,reconnaissanceImage,,Positive,Bonne,,C
 1294,sujet_006_GM,7,Grand,,Pas RT,Chimiotherapie,P1,citron,reconnaissanceImage,,Neutre,Bonne,,C
 1295,sujet_006_GM,7,Grand,,Pas RT,Chimiotherapie,P1,totale,reconnaissanceImage,,,,,C
-1296,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,champignon,reconnaissanceImage,,Negative,Bonne,,C
-1297,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,cassis,reconnaissanceImage,,Positive,Moins bonne,,C
-1298,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,lavande,reconnaissanceImage,,Neutre,Moins bonne,,C
-1299,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,fenouil,reconnaissanceImage,,Negative,Moins bonne,,C
-1300,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,banane,reconnaissanceImage,,Positive,Bonne,,C
-1301,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,citron,reconnaissanceImage,,Neutre,Bonne,,C
-1302,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,totale,reconnaissanceImage,,,,,C
+1296,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,champignon,reconnaissanceImage,,Negative,Bonne,,RC
+1297,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,cassis,reconnaissanceImage,,Positive,Moins bonne,,RC
+1298,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,lavande,reconnaissanceImage,,Neutre,Moins bonne,,RC
+1299,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,fenouil,reconnaissanceImage,,Negative,Moins bonne,,RC
+1300,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,banane,reconnaissanceImage,,Positive,Bonne,,RC
+1301,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,citron,reconnaissanceImage,,Neutre,Bonne,,RC
+1302,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,totale,reconnaissanceImage,,,,,RC
 1303,sujet_008_PA,7,Grand,,Pas RT,Chimiotherapie,P1,champignon,reconnaissanceImage,,Negative,Bonne,,C
 1304,sujet_008_PA,7,Grand,,Pas RT,Chimiotherapie,P1,cassis,reconnaissanceImage,,Positive,Moins bonne,,C
 1305,sujet_008_PA,7,Grand,,Pas RT,Chimiotherapie,P1,lavande,reconnaissanceImage,,Neutre,Moins bonne,,C
@@ -1561,13 +1561,13 @@
 1559,sujet_006_GM,7,Grand,,Pas RT,Chimiotherapie,P1,banane,reconnaissanceOdeur,,Positive,Bonne,,C
 1560,sujet_006_GM,7,Grand,,Pas RT,Chimiotherapie,P1,citron,reconnaissanceOdeur,,Neutre,Bonne,,C
 1561,sujet_006_GM,7,Grand,,Pas RT,Chimiotherapie,P1,totale,reconnaissanceOdeur,,,,,C
-1562,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,champignon,reconnaissanceOdeur,,Negative,Bonne,,C
-1563,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,cassis,reconnaissanceOdeur,,Positive,Moins bonne,,C
-1564,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,lavande,reconnaissanceOdeur,,Neutre,Moins bonne,,C
-1565,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,fenouil,reconnaissanceOdeur,,Negative,Moins bonne,,C
-1566,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,banane,reconnaissanceOdeur,,Positive,Bonne,,C
-1567,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,citron,reconnaissanceOdeur,,Neutre,Bonne,,C
-1568,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,totale,reconnaissanceOdeur,,,,,C
+1562,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,champignon,reconnaissanceOdeur,,Negative,Bonne,,RC
+1563,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,cassis,reconnaissanceOdeur,,Positive,Moins bonne,,RC
+1564,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,lavande,reconnaissanceOdeur,,Neutre,Moins bonne,,RC
+1565,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,fenouil,reconnaissanceOdeur,,Negative,Moins bonne,,RC
+1566,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,banane,reconnaissanceOdeur,,Positive,Bonne,,RC
+1567,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,citron,reconnaissanceOdeur,,Neutre,Bonne,,RC
+1568,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,totale,reconnaissanceOdeur,,,,,RC
 1569,sujet_008_PA,7,Grand,,Pas RT,Chimiotherapie,P1,champignon,reconnaissanceOdeur,,Negative,Bonne,,C
 1570,sujet_008_PA,7,Grand,,Pas RT,Chimiotherapie,P1,cassis,reconnaissanceOdeur,,Positive,Moins bonne,,C
 1571,sujet_008_PA,7,Grand,,Pas RT,Chimiotherapie,P1,lavande,reconnaissanceOdeur,,Neutre,Moins bonne,,C
@@ -1857,18 +1857,18 @@
 1855,sujet_006_GM,7,Grand,,Pas RT,Chimiotherapie,P2,fenouil,repereJournalier,,Negative,Moins bonne,,C
 1856,sujet_006_GM,7,Grand,,Pas RT,Chimiotherapie,P2,banane,repereJournalier,,Positive,Bonne,,C
 1857,sujet_006_GM,7,Grand,,Pas RT,Chimiotherapie,P2,citron,repereJournalier,,Neutre,Bonne,,C
-1858,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,champignon,repereJournalier,,Negative,Bonne,,C
-1859,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,cassis,repereJournalier,,Positive,Moins bonne,,C
-1860,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,lavande,repereJournalier,,Neutre,Moins bonne,,C
-1861,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,fenouil,repereJournalier,,Negative,Moins bonne,,C
-1862,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,banane,repereJournalier,,Positive,Bonne,,C
-1863,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,citron,repereJournalier,,Neutre,Bonne,,C
-1864,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P2,champignon,repereJournalier,,Negative,Bonne,,C
-1865,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P2,cassis,repereJournalier,,Positive,Moins bonne,,C
-1866,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P2,lavande,repereJournalier,,Neutre,Moins bonne,,C
-1867,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P2,fenouil,repereJournalier,,Negative,Moins bonne,,C
-1868,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P2,banane,repereJournalier,,Positive,Bonne,,C
-1869,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P2,citron,repereJournalier,,Neutre,Bonne,,C
+1858,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,champignon,repereJournalier,,Negative,Bonne,,RC
+1859,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,cassis,repereJournalier,,Positive,Moins bonne,,RC
+1860,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,lavande,repereJournalier,,Neutre,Moins bonne,,RC
+1861,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,fenouil,repereJournalier,,Negative,Moins bonne,,RC
+1862,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,banane,repereJournalier,,Positive,Bonne,,RC
+1863,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,citron,repereJournalier,,Neutre,Bonne,,RC
+1864,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P2,champignon,repereJournalier,,Negative,Bonne,,RC
+1865,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P2,cassis,repereJournalier,,Positive,Moins bonne,,RC
+1866,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P2,lavande,repereJournalier,,Neutre,Moins bonne,,RC
+1867,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P2,fenouil,repereJournalier,,Negative,Moins bonne,,RC
+1868,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P2,banane,repereJournalier,,Positive,Bonne,,RC
+1869,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P2,citron,repereJournalier,,Neutre,Bonne,,RC
 1870,sujet_008_PA,7,Grand,,Pas RT,Chimiotherapie,P1,champignon,repereJournalier,,Negative,Bonne,,C
 1871,sujet_008_PA,7,Grand,,Pas RT,Chimiotherapie,P1,cassis,repereJournalier,,Positive,Moins bonne,,C
 1872,sujet_008_PA,7,Grand,,Pas RT,Chimiotherapie,P1,lavande,repereJournalier,,Neutre,Moins bonne,,C
@@ -2313,18 +2313,18 @@
 2311,sujet_006_GM,7,Grand,,Pas RT,Chimiotherapie,P2,fenouil,totale,,Negative,Moins bonne,,C
 2312,sujet_006_GM,7,Grand,,Pas RT,Chimiotherapie,P2,banane,totale,,Positive,Bonne,,C
 2313,sujet_006_GM,7,Grand,,Pas RT,Chimiotherapie,P2,citron,totale,,Neutre,Bonne,,C
-2314,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,champignon,totale,,Negative,Bonne,,C
-2315,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,cassis,totale,,Positive,Moins bonne,,C
-2316,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,lavande,totale,,Neutre,Moins bonne,,C
-2317,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,fenouil,totale,,Negative,Moins bonne,,C
-2318,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,banane,totale,,Positive,Bonne,,C
-2319,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,citron,totale,,Neutre,Bonne,,C
-2320,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P2,champignon,totale,,Negative,Bonne,,C
-2321,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P2,cassis,totale,,Positive,Moins bonne,,C
-2322,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P2,lavande,totale,,Neutre,Moins bonne,,C
-2323,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P2,fenouil,totale,,Negative,Moins bonne,,C
-2324,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P2,banane,totale,,Positive,Bonne,,C
-2325,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P2,citron,totale,,Neutre,Bonne,,C
+2314,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,champignon,totale,,Negative,Bonne,,RC
+2315,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,cassis,totale,,Positive,Moins bonne,,RC
+2316,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,lavande,totale,,Neutre,Moins bonne,,RC
+2317,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,fenouil,totale,,Negative,Moins bonne,,RC
+2318,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,banane,totale,,Positive,Bonne,,RC
+2319,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,citron,totale,,Neutre,Bonne,,RC
+2320,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P2,champignon,totale,,Negative,Bonne,,RC
+2321,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P2,cassis,totale,,Positive,Moins bonne,,RC
+2322,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P2,lavande,totale,,Neutre,Moins bonne,,RC
+2323,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P2,fenouil,totale,,Negative,Moins bonne,,RC
+2324,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P2,banane,totale,,Positive,Bonne,,RC
+2325,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P2,citron,totale,,Neutre,Bonne,,RC
 2326,sujet_008_PA,7,Grand,,Pas RT,Chimiotherapie,P1,champignon,totale,,Negative,Bonne,,C
 2327,sujet_008_PA,7,Grand,,Pas RT,Chimiotherapie,P1,cassis,totale,,Positive,Moins bonne,,C
 2328,sujet_008_PA,7,Grand,,Pas RT,Chimiotherapie,P1,lavande,totale,,Neutre,Moins bonne,,C
@@ -2769,18 +2769,18 @@
 2767,sujet_006_GM,7,Grand,,Pas RT,Chimiotherapie,P2,fenouil,what,,Negative,Moins bonne,,C
 2768,sujet_006_GM,7,Grand,,Pas RT,Chimiotherapie,P2,banane,what,,Positive,Bonne,,C
 2769,sujet_006_GM,7,Grand,,Pas RT,Chimiotherapie,P2,citron,what,,Neutre,Bonne,,C
-2770,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,champignon,what,,Negative,Bonne,,C
-2771,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,cassis,what,,Positive,Moins bonne,,C
-2772,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,lavande,what,,Neutre,Moins bonne,,C
-2773,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,fenouil,what,,Negative,Moins bonne,,C
-2774,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,banane,what,,Positive,Bonne,,C
-2775,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,citron,what,,Neutre,Bonne,,C
-2776,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P2,champignon,what,,Negative,Bonne,,C
-2777,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P2,cassis,what,,Positive,Moins bonne,,C
-2778,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P2,lavande,what,,Neutre,Moins bonne,,C
-2779,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P2,fenouil,what,,Negative,Moins bonne,,C
-2780,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P2,banane,what,,Positive,Bonne,,C
-2781,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P2,citron,what,,Neutre,Bonne,,C
+2770,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,champignon,what,,Negative,Bonne,,RC
+2771,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,cassis,what,,Positive,Moins bonne,,RC
+2772,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,lavande,what,,Neutre,Moins bonne,,RC
+2773,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,fenouil,what,,Negative,Moins bonne,,RC
+2774,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,banane,what,,Positive,Bonne,,RC
+2775,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,citron,what,,Neutre,Bonne,,RC
+2776,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P2,champignon,what,,Negative,Bonne,,RC
+2777,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P2,cassis,what,,Positive,Moins bonne,,RC
+2778,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P2,lavande,what,,Neutre,Moins bonne,,RC
+2779,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P2,fenouil,what,,Negative,Moins bonne,,RC
+2780,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P2,banane,what,,Positive,Bonne,,RC
+2781,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P2,citron,what,,Neutre,Bonne,,RC
 2782,sujet_008_PA,7,Grand,,Pas RT,Chimiotherapie,P1,champignon,what,,Negative,Bonne,,C
 2783,sujet_008_PA,7,Grand,,Pas RT,Chimiotherapie,P1,cassis,what,,Positive,Moins bonne,,C
 2784,sujet_008_PA,7,Grand,,Pas RT,Chimiotherapie,P1,lavande,what,,Neutre,Moins bonne,,C
@@ -3225,18 +3225,18 @@
 3223,sujet_006_GM,7,Grand,,Pas RT,Chimiotherapie,P2,fenouil,when,,Negative,Moins bonne,,C
 3224,sujet_006_GM,7,Grand,,Pas RT,Chimiotherapie,P2,banane,when,,Positive,Bonne,,C
 3225,sujet_006_GM,7,Grand,,Pas RT,Chimiotherapie,P2,citron,when,,Neutre,Bonne,,C
-3226,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,champignon,when,,Negative,Bonne,,C
-3227,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,cassis,when,,Positive,Moins bonne,,C
-3228,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,lavande,when,,Neutre,Moins bonne,,C
-3229,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,fenouil,when,,Negative,Moins bonne,,C
-3230,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,banane,when,,Positive,Bonne,,C
-3231,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,citron,when,,Neutre,Bonne,,C
-3232,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P2,champignon,when,,Negative,Bonne,,C
-3233,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P2,cassis,when,,Positive,Moins bonne,,C
-3234,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P2,lavande,when,,Neutre,Moins bonne,,C
-3235,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P2,fenouil,when,,Negative,Moins bonne,,C
-3236,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P2,banane,when,,Positive,Bonne,,C
-3237,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P2,citron,when,,Neutre,Bonne,,C
+3226,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,champignon,when,,Negative,Bonne,,RC
+3227,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,cassis,when,,Positive,Moins bonne,,RC
+3228,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,lavande,when,,Neutre,Moins bonne,,RC
+3229,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,fenouil,when,,Negative,Moins bonne,,RC
+3230,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,banane,when,,Positive,Bonne,,RC
+3231,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P1,citron,when,,Neutre,Bonne,,RC
+3232,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P2,champignon,when,,Negative,Bonne,,RC
+3233,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P2,cassis,when,,Positive,Moins bonne,,RC
+3234,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P2,lavande,when,,Neutre,Moins bonne,,RC
+3235,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P2,fenouil,when,,Negative,Moins bonne,,RC
+3236,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P2,banane,when,,Positive,Bonne,,RC
+3237,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P2,citron,when,,Neutre,Bonne,,RC
 3238,sujet_008_PA,7,Grand,,Pas RT,Chimiotherapie,P1,champignon,when,,Negative,Bonne,,C
 3239,sujet_008_PA,7,Grand,,Pas RT,Chimiotherapie,P1,cassis,when,,Positive,Moins bonne,,C
 3240,sujet_008_PA,7,Grand,,Pas RT,Chimiotherapie,P1,lavande,when,,Neutre,Moins bonne,,C
@@ -3615,7 +3615,7 @@
 3613,sujet_004_GA,9,Grand,,Pas RT,Chimiotherapie,P2,totale,episodicite,,,,,C
 3614,sujet_005_BZ,8,Grand,4.0,RT,Conventionelle,P2,totale,episodicite,,,,Non musicien,RC
 3615,sujet_006_GM,7,Grand,,Pas RT,Chimiotherapie,P2,totale,episodicite,,,,,C
-3616,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P2,totale,episodicite,,,,,C
+3616,sujet_007_MM,8,Grand,4.0,RT,Conventionelle,P2,totale,episodicite,,,,,RC
 3617,sujet_008_PA,7,Grand,,Pas RT,Chimiotherapie,P2,totale,episodicite,,,,,C
 3618,sujet_009_GB,7,Grand,3.0,RT,Conventionelle,P2,totale,episodicite,10.0,,,Musicien,R
 3619,sujet_010_SA,9,Grand,6.0,RT,Conventionelle,P2,totale,episodicite,,,,,RC
